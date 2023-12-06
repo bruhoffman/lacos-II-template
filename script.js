@@ -83,3 +83,30 @@ const filmes = [
 ]
 
 // escreva seu código abaixo 👇🏻
+
+// Prática Extra letra a
+/* for (let i in filmes) {
+  console.log(`${filmes[i].titulo}, de ${filmes[i].ano}, dirigido por ${filmes[i].diretor}.`);
+} */
+
+// Prática Extra letra b
+/* for (let i = 0; i < filmes.length; i++) {
+  console.log(`${filmes[i].titulo}, de ${filmes[i].ano}, dirigido por ${filmes[i].diretor}.`);
+
+  for (let j = 0; j < filmes[i].elenco.length; j++) {
+    j = Number(j);
+    console.log(` * Ator / Atriz ${j + 1}: ${filmes[i].elenco[j]}`);
+  }
+
+} */
+
+// Prática Extra 2 e 3
+for (let i in filmes) {
+  console.log(`${filmes[i].titulo}, de ${filmes[i].ano}, dirigido por ${filmes[i].diretor}.`);
+
+  let k = 0;
+  for (let j of filmes[i].elenco) {
+    console.log(`Ator / Atriz ${k + 1}: ${j}`);
+    k = k + 1;
+  }
+}
