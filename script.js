@@ -5,8 +5,7 @@ const bimestre2 = [6, 9, 8, 7];
 const bimestre3 = [10, 9, 7, 8];
 const bimestre4 = [9, 8, 9, 10];
 
-const notasBimestres = [bimestre1, bimestre2, bimestre3, bimestre4];
- */
+const notasBimestres = [bimestre1, bimestre2, bimestre3, bimestre4]; */
 
 /* for (i = 0; i < notasBimestres.length; i++) {
   let notas = 0;
@@ -15,9 +14,10 @@ const notasBimestres = [bimestre1, bimestre2, bimestre3, bimestre4];
   for (let j = 0; j < notasBimestres.length; j++) {
     notas = notas + notasBimestres[i][j];
   }
-  console.log(`A soma das notas do bimestre ${i + 1} é ${notas}`);
-  console.log(`A média do bimistre ${i + 1} é: ${notas / notasBimestres.length}`);
+  console.log(`A soma das notas do bimestre ${i + 1} é: ${notas}`);
+  console.log(`A média do bimestre ${i + 1} é: ${notas / notasBimestres.length}`);
 } */
+
 
 // PRÁTICA 2
 /* for (let i in notasBimestres) {
@@ -46,7 +46,7 @@ const notasBimestres = [bimestre1, bimestre2, bimestre3, bimestre4];
 } */
 
 // --------------- EXERCÍCIO DE FIXAÇÃO ---------------
-const filmes = [
+/* const filmes = [
   {
     titulo: 'O Auto da Compadecida',
     ano: 2000,
@@ -80,7 +80,7 @@ const filmes = [
       'Bárbara Colen',
     ],
   },
-]
+] */
 
 // escreva seu código abaixo 👇🏻
 
@@ -101,7 +101,7 @@ const filmes = [
 } */
 
 // Prática Extra 2 e 3
-for (let i in filmes) {
+/* for (let i in filmes) {
   console.log(`${filmes[i].titulo}, de ${filmes[i].ano}, dirigido por ${filmes[i].diretor}.`);
 
   let k = 0;
@@ -109,4 +109,4 @@ for (let i in filmes) {
     console.log(`Ator / Atriz ${k + 1}: ${j}`);
     k = k + 1;
   }
-}
+} */
